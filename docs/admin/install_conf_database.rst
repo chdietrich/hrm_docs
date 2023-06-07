@@ -49,7 +49,7 @@ PostgreSQL
 
 .. code-block:: sh
 
-    su postgres -c "createuser -e -P -d -A -S -R hrm"
+    su postgres -c "createuser -e -P -d hrm"
     su postgres -c "createdb hrm"
 
 RHEL
